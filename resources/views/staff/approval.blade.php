@@ -30,6 +30,7 @@
         <th scope="col">LeaveType</th>
         <th scope="col">LeaveBalance(i)</th>
         <th scope="col">LeaveBalance(f)</th>
+        <!-- <th scope="col">TotalLeave</th> -->
         <th scope="col">Status</th>
         <th scope="col">Rejection Reason</th>
       </tr>

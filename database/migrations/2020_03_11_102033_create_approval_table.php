@@ -23,6 +23,7 @@ class CreateApprovalTable extends Migration
             // $table->date('created_at')->nullable();
             $table->integer('initial_leave_bal')->default(35);	
             $table->integer('final_leave_bal')->default(35);
+            $table->integer('totalleave')->nullable();
             $table->date('startdate');	
             $table->date('enddate');	
             $table->text('reason')->nullable();	
@@ -38,6 +39,6 @@ class CreateApprovalTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('approval');
+        Schema::dropIfExists('approvals');
     }
 }
