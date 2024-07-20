@@ -13,7 +13,7 @@ class CreateLeaveTypeTable extends Migration
      */
     public function up()
     {
-        Schema::create('leave_type', function (Blueprint $table) {
+        Schema::create('leave_types', function (Blueprint $table) {
             $table->id();
             $table->string('name');
             $table->string('limit');

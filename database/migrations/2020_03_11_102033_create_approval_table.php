@@ -13,7 +13,7 @@ class CreateApprovalTable extends Migration
      */
     public function up()
     {
-        Schema::create('approval', function (Blueprint $table) {
+        Schema::create('approvals', function (Blueprint $table) {
             $table->id();
             $table->string('status')->default('Pending');
             $table->string('name');
